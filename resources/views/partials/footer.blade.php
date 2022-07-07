@@ -1,3 +1,3 @@
 <footer>
-    <h2>Io sono il footer</h2>
+    <h2>io sono il footer</h2>
 </footer>
