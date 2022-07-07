@@ -1,3 +1,3 @@
 <header>
-    <h1>DC COMICS</h1>
+    <img src="{{asset('img/dc-logo.png')}}" alt="LOGO DC">
 </header>

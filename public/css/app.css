@@ -1,4 +1,8 @@
-body {
-  background-color: pink;
+:root {
+  --primary-color: #0C7CEC;
+}
+
+:root {
+  --primary-color: #0C7CEC;
 }
 
