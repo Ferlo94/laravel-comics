@@ -8,7 +8,7 @@
 
     &__container {
       display: flex;
-        list-style: none;
+      list-style: none;
       margin: auto;
       width: 100%;
       max-width: var(--container-md);
@@ -34,17 +34,11 @@
           text-decoration: none;
           font-weight: bold;
         }
+
         .active a:hover {
           border-bottom: .3125rem solid var(--primary-color);
           color: var(--primary-color);
         }
-        
-
       }
-
-      
-
-
-
     }
   }

@@ -57,3 +57,42 @@ body {
   color: var(--primary-color);
 }
 
+.header {
+  display: flex;
+  list-style: none;
+  background-color: white;
+  height: 7.5rem;
+  justify-content: center;
+}
+
+.header__container {
+  display: flex;
+  list-style: none;
+  margin: auto;
+  width: 100%;
+  max-width: var(--container-md);
+  align-items: center;
+}
+
+.header__logo {
+  width: 50%;
+}
+
+.header__nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.header__nav ul a {
+  color: var(--terzo-color);
+  margin: 0.625rem;
+  padding-bottom: 2.75rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__nav ul .active a:hover {
+  border-bottom: 0.3125rem solid var(--primary-color);
+  color: var(--primary-color);
+}
+
