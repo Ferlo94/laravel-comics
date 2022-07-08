@@ -31,11 +31,11 @@
 
             <div class="follow-us">
                 <span><strong>FOLLOW US</strong></span>
-                <img src="../assets/img/footer-facebook.png" alt="">
+                {{-- <img src="../assets/img/footer-facebook.png" alt="">
                 <img src="../assets/img/footer-twitter.png" alt="">
                 <img src="../assets/img/footer-youtube.png" alt="">
                 <img src="../assets/img/footer-pinterest.png" alt="">
-                <img src="../assets/img/footer-periscope.png" alt="">
+                <img src="../assets/img/footer-periscope.png" alt=""> --}}
             </div>
         </div>    
     </div>
