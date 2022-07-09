@@ -137,3 +137,19 @@ body {
 .footer .follow-us img {
   margin: 6px;
 }
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: var(--container-md);
+  margin: auto;
+}
+
+.film {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 30px;
+}

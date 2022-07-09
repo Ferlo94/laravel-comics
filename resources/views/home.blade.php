@@ -4,9 +4,12 @@
     <section>
         <ul>
             @foreach ($movies as $movie)
-                <li>
-                    <img src="{{$movie['thumb']}}" alt="">
-                </li>
+                    <li class="list">
+                        <div class="film">
+                            <img src="{{$movie['thumb']}}" alt="">
+                            <h3>{{$movie['series']}}</h3>
+                        </div>
+                    </li>
             @endforeach
         </ul>
     </section>
