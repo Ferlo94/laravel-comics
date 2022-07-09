@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $movies = config('movies');
+    return view('home', compact('movies'));
 });

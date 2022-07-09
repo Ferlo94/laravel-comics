@@ -1,5 +1,7 @@
 @extends('layouts.base')
 
 @section('page-content')
-    main
+    <section>
+        @dump($movies)
+    </section>
 @endsection
