@@ -2,6 +2,12 @@
 
 @section('page-content')
     <section>
-        @dump($movies)
+        <ul>
+            @foreach ($movies as $movie)
+                <li>
+                    <img src="{{$movie['thumb']}}" alt="">
+                </li>
+            @endforeach
+        </ul>
     </section>
 @endsection
